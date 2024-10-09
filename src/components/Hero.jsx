@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div>
+    <div className="w-full px-52 py-16 bg-indigo-700">
       <div className="">
         <h2></h2>
         <p></p>
