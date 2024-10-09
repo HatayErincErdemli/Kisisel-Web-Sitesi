@@ -72,15 +72,77 @@ export const languages = {
         },
         footer:{
             title:"Send me a message!",
-            intro:"Got a question or proposal, or just want to say hello? Go ahead.",
+            intro:"Got a question or proposal, or just want to say hello? Go ahead!",
             email:"hatayerinc@gmail.com"
         }
     },
     tr: {
-        hero:{},
-        skills:{},
-        profile:{},
-        projects:{},
-        footer:{}
+        hero:{
+            profile_name:"Hatay Erinç",
+            profile_img:"https://picsum.photos/200",
+            intro:"Ben harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir...",
+            intro_2:"...ön yüz ürünleri oluşturmayı seven bir Ön yüz geliştiricisiyim"
+        },
+        skills:{
+            title:"Yeterlilikler",
+            skills_items:{
+                javascript:{
+                    logo:{js},
+                    name:"JAVASCRIPT"
+                },
+                react:{
+                    logo:{react},
+                    name:"REACT"
+                },
+                redux:{
+                    logo:{redux},
+                    name:"REDUX"
+                },
+                vscode:{
+                    logo:{node},
+                    name:"NODE"
+                },
+                javascript:{
+                    logo:{vscode},
+                    name:"VS CODE"
+                },
+                javascript:{
+                    logo:{figma},
+                    name:"FIGMA"
+                }
+            }
+        },
+        profile:{
+            title:"Profilim",
+            about:"Hakkımda",
+            about_content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            info:"Temel Bilgiler",
+            info_titles:["Doğum Günü", "İkamet Ettiği Şehir","Eğitim Durumu", "Tercih Ettiği Rol"],
+            info_answers:["02.05.1998", "İzmir", "İzmir Katip Çelebi Ünv. Gastronomi ve Mutfak Sanatları Lisans, 2024", "Frontend, UI" ]
+        },
+        projects:{
+            title:"Projeler",
+            projects_items:{
+                grid:{
+                    img:{gridUrl},
+                    name:"GRID Oyunu",
+                    about_content:"Sağ, sol, yukarı ve aşağı tuşları yardımıyla bir karoyu hareket ettirdiğiniz bir oyun. Bu oyun karoyu kaç kez hareket ettirdiğinizi takip ederek hareket sayısını bir sayaçta gösteriyor.",
+                    site_url:"https://fs-web-s9-sprint-challenge-solution-black.vercel.app",
+                    github_url:"https://github.com/HatayErincErdemli/FSWeb-S9-Sprint-Challenge-solution"
+                },
+                teknolojik_yemekler:{
+                    img:{teknolojikUrl},
+                    name:"Teknolojik Yemekler",
+                    about_content:"Single Page Application yaklaşımını benimseyen basit bir pizza sipariş uygulaması.",
+                    site_url:"https://teknolojik-yemekler-spa-projesi.vercel.app",
+                    github_url:"https://github.com/HatayErincErdemli/Teknolojik-Yemekler-SPA-Projesi"
+                }
+            }
+        },
+        footer:{
+            title:"Bana bir mesaj gönderin!",
+            intro:"Bir sorunuz veya öneriniz mi var, yoksa sadece merhaba mı demek istiyorsunuz? Haydi durmayın!.",
+            email:"hatayerinc@gmail.com"
+        }
     }
 }
