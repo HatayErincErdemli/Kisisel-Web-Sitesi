@@ -46,7 +46,7 @@ function Hero() {
           <img
             src={languages.en.hero.profile_img}
             alt=""
-            className="m-0 p-0 rounded-lg min-w-80 min-h-80"
+            className="m-0 p-0 rounded-lg"
           />
         </div>
       </div>

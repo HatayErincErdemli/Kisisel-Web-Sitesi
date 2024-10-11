@@ -1,17 +1,12 @@
-import js from "./src/assets/js.jsx";
-import react from "./src/assets/react.svg";
-import redux from "./src/assets/redux.svg";
-import vscode from "./src/assets/vscode.svg";
-import node from "./src/assets/node.svg";
-import figma from "./src/assets/figma.jsx";
+
 import gridUrl from "./src/assets/GRID.png";
 import teknolojikUrl from "./src/assets/teknolojikYemekler.png";
-import Figma from "./src/assets/figma.jsx";
+
 export const languages = {
     en:{
         hero:{
             profile_name:"Hatay Erinç Erdemli",
-            profile_img:"https://picsum.photos/200",
+            profile_img:"https://picsum.photos/300",
             intro:"I am a Frontend Devoloper...",
             intro_2:"...who likes to craft solid and scalable frontend products with great user experiences"
         },
@@ -49,8 +44,8 @@ export const languages = {
             about:"About Me",
             about_content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             info:"Basic Information",
-            info_titles:["Birthday", "City ​​of Residence","Educational Background", "Preferred Role"],
-            info_answers:["02.05.1998", "İzmir", "İzmir Katip Çelebi Uni Gastronomy and Culinary Arts Degree, 2024", "Frontend, UI" ]
+            info_items:[{title:"Birthday",answer:"02.05.1998"},{title:"City ​​of Residence",answer:"İzmir"},{title:"Educational Background",answer:"İzmir Katip Çelebi Uni Gastronomy and Culinary Arts Degree, 2024"},{title:"Preferred Role",answer:"Frontend, UI"}]
+            
         },
         projects:{
             title:"Projects",
@@ -86,40 +81,39 @@ export const languages = {
         },
         skills:{
             title:"Yeterlilikler",
-            skills_items:{
-                javascript:{
-                    logo:{js},
+            skills_items:[
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
                     name:"JAVASCRIPT"
                 },
-                react:{
-                    logo:{react},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
                     name:"REACT"
                 },
-                redux:{
-                    logo:{redux},
+                {
+                    logo:"https://cdn.worldvectorlogo.com/logos/redux.svg",
                     name:"REDUX"
                 },
-                vscode:{
-                    logo:{node},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/archive/d/d9/20160518085101%21Node.js_logo.svg",
                     name:"NODE"
                 },
-                javascript:{
-                    logo:{vscode},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
                     name:"VS CODE"
                 },
-                javascript:{
-                    logo:{figma},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
                     name:"FIGMA"
                 }
-            }
+            ]
         },
         profile:{
             title:"Profilim",
             about:"Hakkımda",
             about_content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             info:"Temel Bilgiler",
-            info_titles:["Doğum Günü", "İkamet Ettiği Şehir","Eğitim Durumu", "Tercih Ettiği Rol"],
-            info_answers:["02.05.1998", "İzmir", "İzmir Katip Çelebi Ünv. Gastronomi ve Mutfak Sanatları Lisans, 2024", "Frontend, UI" ]
+            info_items:[{title:"Doğum Günü",answer:"02.05.1998"},{title:"İkamet Ettiği Şehir",answer:"İzmir"},{title:"Eğitim Durumu",answer:"İzmir Katip Çelebi Ünv. Gastronomi ve Mutfak Sanatları Lisans, 2024"},{title:"Tercih Ettiği Rol",answer:"Frontend, UI"}]            
         },
         projects:{
             title:"Projeler",
