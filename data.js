@@ -1,15 +1,15 @@
-import js from "./assets/js.svg";
-import react from "./assets/react.svg";
-import redux from "./assets/redux.svg";
-import vscode from "./assets/vscode.svg";
-import node from "./assets/node.svg";
-import figma from "./assets/figma.svg";
-import gridUrl from "./assets/GRID.png";
-import teknolojikUrl from "./assets/teknolojikYemekler.png";
+import js from "./src/assets/js.svg";
+import react from "./src/assets/react.svg";
+import redux from "./src/assets/redux.svg";
+import vscode from "./src/assets/vscode.svg";
+import node from "./src/assets/node.svg";
+import figma from "./src/assets/figma.svg";
+import gridUrl from "./src/assets/GRID.png";
+import teknolojikUrl from "./src/assets/teknolojikYemekler.png";
 export const languages = {
     en:{
         hero:{
-            profile_name:"Hatay Erinç",
+            profile_name:"Hatay Erinç Erdemli",
             profile_img:"https://picsum.photos/200",
             intro:"I am a Frontend Devoloper...",
             intro_2:"...who likes to craft solid and scalable frontend products with great user experiences"
@@ -78,7 +78,7 @@ export const languages = {
     },
     tr: {
         hero:{
-            profile_name:"Hatay Erinç",
+            profile_name:"Hatay Erinç Erdemli",
             profile_img:"https://picsum.photos/200",
             intro:"Ben harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir...",
             intro_2:"...ön yüz ürünleri oluşturmayı seven bir Ön yüz geliştiricisiyim"
