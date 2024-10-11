@@ -1,11 +1,12 @@
-import js from "./src/assets/js.svg";
+import js from "./src/assets/js.jsx";
 import react from "./src/assets/react.svg";
 import redux from "./src/assets/redux.svg";
 import vscode from "./src/assets/vscode.svg";
 import node from "./src/assets/node.svg";
-import figma from "./src/assets/figma.svg";
+import figma from "./src/assets/figma.jsx";
 import gridUrl from "./src/assets/GRID.png";
 import teknolojikUrl from "./src/assets/teknolojikYemekler.png";
+import Figma from "./src/assets/figma.jsx";
 export const languages = {
     en:{
         hero:{
@@ -16,32 +17,32 @@ export const languages = {
         },
         skills:{
             title:"Skills",
-            skills_items:{
-                javascript:{
-                    logo:{js},
+            skills_items:[
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
                     name:"JAVASCRIPT"
                 },
-                react:{
-                    logo:{react},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
                     name:"REACT"
                 },
-                redux:{
-                    logo:{redux},
+                {
+                    logo:"https://cdn.worldvectorlogo.com/logos/redux.svg",
                     name:"REDUX"
                 },
-                vscode:{
-                    logo:{node},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/archive/d/d9/20160518085101%21Node.js_logo.svg",
                     name:"NODE"
                 },
-                javascript:{
-                    logo:{vscode},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
                     name:"VS CODE"
                 },
-                javascript:{
-                    logo:{figma},
+                {
+                    logo:"https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
                     name:"FIGMA"
                 }
-            }
+            ]
         },
         profile:{
             title:"Profile",

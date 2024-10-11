@@ -8,7 +8,7 @@ function Hero() {
       className="w-auto h-auto flex flex-col flex-wrap justify-between px-60"
     >
       <div className=" flex flex-row justify-end pt-4 space-x-4">
-        <button onClick={""} className="text-base text-[#cbf180] font-bold">
+        <button className="text-base text-[#cbf180] font-bold">
           TÜRKÇE<span className="text-white">'YE GEÇ</span>
         </button>
         <div className="flex flex-row items-center space-x-2">
