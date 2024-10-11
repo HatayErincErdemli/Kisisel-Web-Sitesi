@@ -16,17 +16,21 @@ function Hero() {
             <input type="checkbox" />
             <span className="slider round"></span>
           </label>
-          <p className="text-base texr-[#4730d6] font-bold">DARK MODE</p>
+          <p className="text-base text-indigo-900 font-bold">DARK MODE</p>
         </div>
       </div>
       <div className="m-0 pt-4 pb-8 flex flex-row items- justify-between">
-        <p className="text-3xl  font-bold">{languages.en.hero.profile_name}</p>
+        <p className="text-3xl text-[#cbf180] font-bold">
+          {languages.en.hero.profile_name}
+        </p>
       </div>
 
       <div className="pt-8 pb-40 flex flex-row items-center justify-between content-center">
         <div className="flex flex-col gap-8 m-0 max-w-md">
-          <h2 className="text-5xl font-bold">{languages.en.hero.intro}</h2>
-          <p className="text-2xl">{languages.en.hero.intro_2}</p>
+          <h2 className="text-5xl text-[#cbf180] font-bold">
+            {languages.en.hero.intro}
+          </h2>
+          <p className="text-2xl text-white">{languages.en.hero.intro_2}</p>
           <div className="flex text-xl text-indigo-800 flex-row items-center space-x-4">
             <a href="https://github.com/HatayErincErdemli">
               <button className="px-3 py-2 border border-solid border-indigo-800 bg-white rounded-md flex flex-row items-center space-x-2">

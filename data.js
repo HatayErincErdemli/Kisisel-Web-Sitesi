@@ -1,6 +1,5 @@
 
-import gridUrl from "./src/assets/GRID.png";
-import teknolojikUrl from "./src/assets/teknolojikYemekler.png";
+
 
 export const languages = {
     en:{
@@ -49,22 +48,27 @@ export const languages = {
         },
         projects:{
             title:"Projects",
-            projects_items:{
-                grid:{
-                    img:{gridUrl},
+            projects_items:[
+                {
+                    img:"./src/assets/GRID.png",
                     name:"GRID Game",
                     about_content:"A game where you can move a tile by using left, right, up or down buttons. Game checks how many moves you have made and shows you the amount on a counter.",
                     site_url:"https://fs-web-s9-sprint-challenge-solution-black.vercel.app",
-                    github_url:"https://github.com/HatayErincErdemli/FSWeb-S9-Sprint-Challenge-solution"
+                    github_url:"https://github.com/HatayErincErdemli/FSWeb-S9-Sprint-Challenge-solution",
+                    site:"View Site",
+                    github:"Github"
+
                 },
-                teknolojik_yemekler:{
-                    img:{teknolojikUrl},
+                {
+                    img:"./src/assets/teknolojikYemekler.png",
                     name:"Teknolojik Yemekler",
                     about_content:"A simple pizza ordering single page application (SPA) project.",
                     site_url:"https://teknolojik-yemekler-spa-projesi.vercel.app",
-                    github_url:"https://github.com/HatayErincErdemli/Teknolojik-Yemekler-SPA-Projesi"
+                    github_url:"https://github.com/HatayErincErdemli/Teknolojik-Yemekler-SPA-Projesi",
+                    site:"View Site",
+                    github:"Github"
                 }
-            }
+            ]
         },
         footer:{
             title:"Send me a message!",
@@ -117,22 +121,22 @@ export const languages = {
         },
         projects:{
             title:"Projeler",
-            projects_items:{
-                grid:{
-                    img:{gridUrl},
+            projects_items:[
+                {
+                    img:"./src/assets/GRID.png",
                     name:"GRID Oyunu",
                     about_content:"Sağ, sol, yukarı ve aşağı tuşları yardımıyla bir karoyu hareket ettirdiğiniz bir oyun. Bu oyun karoyu kaç kez hareket ettirdiğinizi takip ederek hareket sayısını bir sayaçta gösteriyor.",
                     site_url:"https://fs-web-s9-sprint-challenge-solution-black.vercel.app",
                     github_url:"https://github.com/HatayErincErdemli/FSWeb-S9-Sprint-Challenge-solution"
                 },
-                teknolojik_yemekler:{
-                    img:{teknolojikUrl},
+                {
+                    img:"./src/assets/teknolojikYemekler.png",
                     name:"Teknolojik Yemekler",
                     about_content:"Single Page Application yaklaşımını benimseyen basit bir pizza sipariş uygulaması.",
                     site_url:"https://teknolojik-yemekler-spa-projesi.vercel.app",
                     github_url:"https://github.com/HatayErincErdemli/Teknolojik-Yemekler-SPA-Projesi"
                 }
-            }
+            ]
         },
         footer:{
             title:"Bana bir mesaj gönderin!",
