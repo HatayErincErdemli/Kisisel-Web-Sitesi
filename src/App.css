@@ -62,3 +62,7 @@ input:checked + .slider:before {
 
 #div1 {
   background-image: linear-gradient(to right, #4731d2, #4731d2 78%, #cbf180 78%, #cbf180);}
+
+#div2 {
+  background-image: linear-gradient(to right, #171042, #171042 78%, #19210a 78%, #19210a);
+}  

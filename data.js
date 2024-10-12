@@ -1,15 +1,16 @@
 
 
 
-export const languages = {
-    en:{
-        hero:{
+
+    export const languages = {
+        en:{
+            hero:{
             profile_name:"Hatay Erinç Erdemli",
             profile_img:"https://picsum.photos/300",
             intro:"I am a Frontend Devoloper...",
             intro_2:"...who likes to craft solid and scalable frontend products with great user experiences"
-        },
-        skills:{
+          },
+          skills:{
             title:"Skills",
             skills_items:[
                 {
@@ -41,7 +42,7 @@ export const languages = {
         profile:{
             title:"Profile",
             about:"About Me",
-            about_content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            about_content:"Hi! I'm Hatay Erinç Erdemli, based in İzmir with a degree in Gastronomy and Culinary Arts from İzmir Katip Çelebi University (2024). While my studies are in culinary arts, my passion lies in frontend development and UI design. I enjoy crafting user-friendly, visually appealing interfaces and combining creativity with technical skills. Eager to grow in the tech world, I aim to contribute to projects that focus on great user experiences and innovative web design.",
             info:"Basic Information",
             info_items:[{title:"Birthday",answer:"02.05.1998"},{title:"City ​​of Residence",answer:"İzmir"},{title:"Educational Background",answer:"İzmir Katip Çelebi Uni Gastronomy and Culinary Arts Degree, 2024"},{title:"Preferred Role",answer:"Frontend, UI"}]
             
@@ -76,7 +77,8 @@ export const languages = {
             email:"hatayerinc@gmail.com"
         }
     },
-    tr: {
+    
+    tr:{
         hero:{
             profile_name:"Hatay Erinç Erdemli",
             profile_img:"https://picsum.photos/200",
@@ -115,7 +117,7 @@ export const languages = {
         profile:{
             title:"Profilim",
             about:"Hakkımda",
-            about_content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            about_content:"Merhaba ben Hatay Erinç Erdemli, İzmir'de yaşıyorum ve 2024 yılında İzmir Katip Çelebi Üniversitesi Gastronomi ve Mutfak Sanatları Bölümü'nden mezun oldum. Eğitimimi gastronomi alanında sürdürmüş olsam da, asıl ilgi alanım frontend geliştirme ve UI tasarımı. Estetik ve işlevsel arayüzler oluşturmayı, kullanıcı deneyimini iyileştiren çözümler sunmayı hedefliyorum. Yaratıcılığımı teknik bilgiyle harmanlayarak, teknoloji dünyasında kendimi sürekli geliştirmeye ve yenilikçi projelere katkı sağlamaya kararlıyım.",
             info:"Temel Bilgiler",
             info_items:[{title:"Doğum Günü",answer:"02.05.1998"},{title:"İkamet Ettiği Şehir",answer:"İzmir"},{title:"Eğitim Durumu",answer:"İzmir Katip Çelebi Ünv. Gastronomi ve Mutfak Sanatları Lisans, 2024"},{title:"Tercih Ettiği Rol",answer:"Frontend, UI"}]            
         },
@@ -143,5 +145,4 @@ export const languages = {
             intro:"Bir sorunuz veya öneriniz mi var, yoksa sadece merhaba mı demek istiyorsunuz? Haydi durmayın!.",
             email:"hatayerinc@gmail.com"
         }
-    }
-}
+    }}

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MyContext } from "../contexts/Context";
 import { languages } from "../../data";
 function Projects() {
+  const { data } = useContext(MyContext);
   return (
-    <div className="bg-[#cbf180] px-60 pt-20 flex flex-col gap-y-6">
-      <h2 className="text-4xl text-[#4731d2] font-bold">
+    <div className="bg-[#cbf180] dark:bg-[#19210a] px-60 pt-20 flex flex-col gap-y-6">
+      <h2 className="text-4xl text-[#4731d2] dark:text-[#cbf180] font-bold">
         {languages.en.projects.title}
       </h2>
       <div>
@@ -14,7 +16,7 @@ function Projects() {
           ) => {
             return (
               <div
-                className="bg-white rounded-xl shadow-md mb-8 flex flex-row"
+                className="bg-white rounded-xl shadow-md mb-8 flex flex-row "
                 key={index}
               >
                 <img
@@ -22,24 +24,26 @@ function Projects() {
                   src={img}
                   alt=""
                 />
-                <div className="px-12 py-8 flex flex-col items-start justify-around">
-                  <p className="text-[#4731d2] text-2xl font-bold">{name}</p>
-                  <p className="text-lg">{about_content}</p>
+                <div className="w-full px-12 py-8 flex flex-col items-start justify-around dark:bg-[#292826]">
+                  <p className="text-[#4731d2] dark:text-[#c7bff1] text-2xl font-bold">
+                    {name}
+                  </p>
+                  <p className="text-lg dark:text-white">{about_content}</p>
                   <div className="text-white flex items-center gap-x-2">
                     <a
-                      className="bg-[#4731d2] rounded-3xl px-5 py-1"
+                      className="bg-[#4731d2] dark:bg-[#c7bff1] rounded-3xl px-5 py-1"
                       href="https://tr.react.dev"
                     >
                       react
                     </a>
                     <a
-                      className="bg-[#4731d2] rounded-full px-5 py-1"
+                      className="bg-[#4731d2] dark:bg-[#c7bff1] rounded-full px-5 py-1"
                       href="https://redux.js.org"
                     >
                       redux
                     </a>
                     <a
-                      className="bg-[#4731d2] rounded-full px-5 py-1"
+                      className="bg-[#4731d2] dark:bg-[#c7bff1] rounded-full px-5 py-1"
                       href="https://vercel.com"
                     >
                       vercel
@@ -47,13 +51,13 @@ function Projects() {
                   </div>
                   <div className="flex flex-row gap-8">
                     <a
-                      className="underline decoration-solid font-semibold"
+                      className="underline decoration-solid font-semibold dark:text-[#cbf180]"
                       href={site_url}
                     >
                       {site}
                     </a>
                     <a
-                      className="underline decoration-solid font-semibold"
+                      className="underline decoration-solid font-semibold dark:text-[#cbf180]"
                       href={github_url}
                     >
                       {github}

@@ -3,7 +3,7 @@ import { languages } from "../../data";
 
 function Profile() {
   return (
-    <div className="w-auto h-auto flex flex-col items-start px-60 pt-10 pb-20 gap-8 bg-[#4731d2]">
+    <div className="w-auto h-auto flex flex-col items-start px-60 pt-10 pb-20 gap-8 bg-[#4731d2] dark:bg-[#171042]">
       <h2 className="text-4xl text-[#cbf180] font-bold pt-10">
         {languages.en.profile.title}
       </h2>
