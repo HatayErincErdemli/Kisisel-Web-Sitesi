@@ -1,22 +1,22 @@
 import React, { useContext } from "react";
 import { MyContext } from "../contexts/Context";
-import { languages } from "../../data";
+
 function Projects() {
-  const { data } = useContext(MyContext);
+  const { langData } = useContext(MyContext);
   return (
     <div className="bg-[#cbf180] dark:bg-[#19210a] px-60 pt-20 flex flex-col gap-y-6">
       <h2 className="text-4xl text-[#4731d2] dark:text-[#cbf180] font-bold">
-        {languages.en.projects.title}
+        {langData.projects.title}
       </h2>
       <div>
-        {languages.en.projects.projects_items.map(
+        {langData.projects.projects_items.map(
           (
             { img, name, about_content, site_url, github_url, site, github },
             index
           ) => {
             return (
               <div
-                className="bg-white rounded-xl shadow-md mb-8 flex flex-row "
+                className="bg-white rounded-xl shadow-md mb-8 flex flex-row max-xl:flex-col "
                 key={index}
               >
                 <img

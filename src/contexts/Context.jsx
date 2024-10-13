@@ -21,12 +21,22 @@ export const MyContextProvider = ({ children }) => {
     });
   };
 
+  function changeLang() {
+    if (lang === "tr") {
+      setLang("en");
+    } else {
+      setLang("tr");
+    }
+  }
+
   function toggleDarkMode() {
     setDarkMode(!darkMode);
     document.body.classList.toggle("dark");
   }
   return (
-    <MyContext.Provider value={{ toggleDarkMode, darkMode, langData }}>
+    <MyContext.Provider
+      value={{ toggleDarkMode, darkMode, langData, changeLang, lang }}
+    >
       {children}
     </MyContext.Provider>
   );

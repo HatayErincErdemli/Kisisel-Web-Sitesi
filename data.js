@@ -129,14 +129,18 @@
                     name:"GRID Oyunu",
                     about_content:"Sağ, sol, yukarı ve aşağı tuşları yardımıyla bir karoyu hareket ettirdiğiniz bir oyun. Bu oyun karoyu kaç kez hareket ettirdiğinizi takip ederek hareket sayısını bir sayaçta gösteriyor.",
                     site_url:"https://fs-web-s9-sprint-challenge-solution-black.vercel.app",
-                    github_url:"https://github.com/HatayErincErdemli/FSWeb-S9-Sprint-Challenge-solution"
+                    github_url:"https://github.com/HatayErincErdemli/FSWeb-S9-Sprint-Challenge-solution",
+                    site:"Siteye Git",
+                    github:"Github"
                 },
                 {
                     img:"./src/assets/teknolojikYemekler.png",
                     name:"Teknolojik Yemekler",
                     about_content:"Single Page Application yaklaşımını benimseyen basit bir pizza sipariş uygulaması.",
                     site_url:"https://teknolojik-yemekler-spa-projesi.vercel.app",
-                    github_url:"https://github.com/HatayErincErdemli/Teknolojik-Yemekler-SPA-Projesi"
+                    github_url:"https://github.com/HatayErincErdemli/Teknolojik-Yemekler-SPA-Projesi",
+                    site:"Siteye Git",
+                    github:"Github"
                 }
             ]
         },
